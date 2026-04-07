@@ -1,0 +1,98 @@
+.sidegrafikk {
+    width: min(900px, 90%);
+    margin: 50px auto 0;
+    color: white;
+}
+
+.sidegrafikk h1 {
+    margin-bottom: 10px;
+}
+
+.intro {
+    margin-bottom: 30px;
+}
+
+.del {
+    background-color: white;
+    color: black;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+}
+
+.del h2 {
+    margin-bottom: 15px;
+    color: #2e3192;
+}
+
+.logo {
+    width: 220px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.farger {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
+}
+
+.kort {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.farge {
+    width: 100%;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.kort p {
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.vis-blaa {
+    background-color: #2e3192;
+}
+
+.vis-lysblaa {
+    background-color: #35519f;
+}
+
+.vis-beige {
+    background-color: beige;
+}
+
+.vis-sort {
+    background-color: #111111;
+}
+
+.vis-hvit {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+}
+
+.vis-logo-blaa {
+    background-color: #2e3192;
+}
+
+.vis-logo-gul {
+    background-color: #fff200;
+}
+
+.vis-logo-roed {
+    background-color: #ed1c24;
+}
+
+.vis-logo-beige {
+    background-color: #c2b59b;
+}
+
+@media (max-width: 700px) {
+    .sidegrafikk {
+        width: 92%;
+    }
+}

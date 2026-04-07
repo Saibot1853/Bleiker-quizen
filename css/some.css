@@ -1,0 +1,49 @@
+.side {
+    width: min(900px, 92%);
+    margin: 50px auto 0;
+    color: white;
+}
+
+.side h1 {
+    margin-bottom: 10px;
+}
+
+.intro {
+    margin-bottom: 20px;
+}
+
+.plakat {
+    background-color: white;
+    padding: 20px;
+}
+
+.plakatbilde {
+    width: min(100%, 420px);
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #999;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.info h2 {
+    margin-bottom: 10px;
+}
+
+.infoboks {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+@media (max-width: 700px) {
+    .side {
+        width: 94%;
+    }
+
+    .plakat {
+        padding: 15px;
+    }
+}
